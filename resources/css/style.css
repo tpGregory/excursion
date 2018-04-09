@@ -1,14 +1,33 @@
-* { /* Black background */
+* { /* Black background and Verdana font */
   background-color: black;
+  font-family: Verdana;
 }
 
 
 h1 { /* Top title styling */
-  font-family: Verdana;
   font-weight: normal;
   font-size: 50px;
   color: white;
   text-align: center;
+}
+
+
+h2 { /* Styling for the other 2 headers */
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+
+p { /* Styling for paragraph in article */
+  font-size: 21px;
+  color: grey;
+}
+
+
+footer { /* Styling for the footer */
+  color: grey;
+  text-align: right;
 }
 
 
