@@ -1,4 +1,9 @@
-h1 {
+* { /* Black background */
+  background-color: black;
+}
+
+
+h1 { /* Top title styling */
   font-family: Verdana;
   font-weight: normal;
   font-size: 50px;
@@ -7,7 +12,13 @@ h1 {
 }
 
 
-p {
+header,
+article { /* Center align for everything but the footer */
+  text-align: center;
+}
+
+
+#link { /* Styling for the download links */
   color: Aquamarine;
   font-size: 16px;
 }
